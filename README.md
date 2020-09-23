@@ -33,9 +33,9 @@ The basic steps follwed in each architecture was:
 | RELU					|												|
 | MaxPooling 2x2     	|  						|
 | Flatten				|												|
-| Fully connected(Dense)		| Outputs 512									|
+| Fully connected(Dense)		| Outputs=512									|
 | RELU					|												|
-| Output				| Outputs 1, activation:sigmoid 								|
+| Output				| Outputs=1, activation=sigmoid 								|
 
 You can find the trained model file [here](https://github.com/chinmaykumar06/cats-vs-dogs-classifier/blob/master/models/my_model.h5).
 
@@ -61,9 +61,9 @@ For this model the results obtained were:
 | MaxPooling 2x2     	|  						|
 | Flatten				|												|
 | Dropout				| Probability 50%								|
-| Fully connected(Dense)		| Outputs 512									|
+| Fully connected(Dense)		| Outputs=512									|
 | RELU					|												|
-| Output				| Outputs 1, activation:sigmoid 								|
+| Output				| Outputs=1, activation=sigmoid 								|
 
 
 The dropout layer avoids overfitting as this model has been trained for 100 epochs.
@@ -82,9 +82,9 @@ For this model the results obtained were:
 | Input         		| 150x150x3 RGB image   						| 
 | VGG16    	|  Functional 						|
 | Flatten				|												|
-| Fully connected(Dense)		| Outputs 256								|
+| Fully connected(Dense)		| Outputs=256								|
 | RELU					|												|
-| Output				| Outputs 1, activation:sigmoid 								|
+| Output				| Outputs=1, activation=sigmoid 								|
 
 You can find the trained model file [here](https://github.com/chinmaykumar06/cats-vs-dogs-classifier/blob/master/models/vgg16_cnn.h5).
 
