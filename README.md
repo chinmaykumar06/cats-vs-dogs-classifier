@@ -212,4 +212,5 @@ This is highly recommended as Colab provides a GPU runtime and you don't have to
 3. This repository will get cloned in your Drive in the folder Colab Notebooks
 4. Go to the directory and open CatsVsDogs.ipynb using Colab.
 5. Click **Runtime -> Change runtime type** and select **GPU** in Hardware accelerator box.
-6. Now mount your drive and using cd change your path to the cloned repository so that you can use the data and images without adding complex path names!
+6. Now mount your drive and using cd change your path to the cloned repository so that you can use the data and images without adding complex path names.
+7. You can now start executing the codeblocks!
